@@ -1,0 +1,391 @@
+.calculator-container {
+    position: absolute;
+    width: 388px;
+    height: 583px;
+    background: #353535;
+    border-radius: 30px;
+    left: 400px;
+}
+
+#result {
+    position: absolute;
+    font-size: 30px;
+    top: 13px;
+    left: 10px;
+    width: 312px;
+    border: none;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.input-result {
+    top: 50px;
+    left: 23px;
+    position: relative; 
+    background: #ffffff;
+    width: 340px;
+    height: 65px;
+    border-radius: 38px;
+    border: none;
+}
+
+#button-number-1 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #CBCBCB;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 150px;
+    left: 25px;
+}
+
+#button-number-1:hover {
+    background-color: rgb(139, 139, 139);
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-2 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #CBCBCB;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 150px;
+    left: 115px;
+}
+
+#button-number-2:hover {
+    background-color: rgb(139, 139, 139);
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-3 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #CBCBCB;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 150px;
+    left: 205px;
+}
+
+#button-number-3:hover {
+    background-color: rgb(139, 139, 139);
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-4 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #FFD43D;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 150px;
+    left: 295px;
+}
+
+#button-number-4:hover {
+    background-color: #cbaa32;
+    color: #dfd9d9;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-5 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 235px;
+    left: 25px;
+}
+
+#button-number-5:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-6 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 235px;
+    left: 115px;
+}
+
+#button-number-6:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-7 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 235px;
+    left: 205px;
+}
+
+#button-number-7:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-8 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #FFD43D;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 235px;
+    left: 295px;
+}
+
+#button-number-8:hover {
+    background-color: #cbaa32;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-9 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 320px;
+    left: 25px;
+}
+
+#button-number-9:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-10 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 320px;
+    left: 115px;
+}
+
+#button-number-10:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-11 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 320px;
+    left: 205px;
+}
+
+#button-number-11:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-12 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #FFD43D;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 320px;
+    left: 295px;     
+}
+
+#button-number-12:hover {
+    background-color: #cbaa32;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-13 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 410px;
+    left: 25px;    
+}
+
+#button-number-13:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-14 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 410px;
+    left: 115px;    
+}
+
+#button-number-14:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-15 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 410px;
+    left: 205px;    
+}
+
+#button-number-15:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-16 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #FFD43D;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 410px;
+    left: 295px;    
+}
+
+#button-number-16:hover {
+    background-color: #cbaa32;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-17 {
+    position: absolute;
+    width: 158px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 500px;
+    left: 25px;   
+}
+
+#button-number-17:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-18 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #777777;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 500px;
+    left: 205px;
+}
+
+#button-number-18:hover {
+    background: #555555;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#button-number-19 {
+    position: absolute;
+    width: 69px;
+    height: 65px;
+    background: #FFD43D;
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    top: 500px;
+    left: 295px;
+}
+
+#button-number-19:hover {
+    background-color: #cbaa32;
+    color: #cbc8c8;
+    transition: 0.2s ease;
+    cursor: pointer;
+}

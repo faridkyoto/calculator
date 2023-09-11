@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/calculator.png"> 
+</head>
+<body>
+    <div class="calculator-container">
+
+       <div class="input-result">
+            <input type="text" id="result">
+       </div>
+
+        <div class="button-number-1-parent">
+            <button id="button-number-1" onclick="clearInput()">
+                C
+            </button>
+        </div>
+
+        <div class="button-number-2-parent">
+            <button id="button-number-2" onclick="clearInput()">
+                +/-
+            </button>
+        </div>
+
+        <div class="button-number-3-parent">
+            <button id="button-number-3" onclick="appendNumber('%')">
+                %
+            </button>
+        </div>
+
+        <div class="button-number-4-parent">
+            <button id="button-number-4" onclick="appendOperator('/')">
+                ÷
+            </button>
+        </div>
+
+        <div class="button-number-5-parent">
+            <button id="button-number-5" onclick="appendNumber('7')">
+                7
+            </button>
+        </div>
+
+        <div class="button-number-6-parent">
+            <button id="button-number-6" onclick="appendNumber('8')">
+                8
+            </button>
+        </div>
+
+        <div class="button-number-7-parent" onclick="appendNumber('9')">
+            <button id="button-number-7">
+                9
+            </button>
+        </div>
+
+        <div class="button-number-8-parent">
+            <button id="button-number-8" onclick="appendOperator('*')">
+                ×
+            </button>
+        </div>
+
+        <div class="button-number-9-parent">
+            <button id="button-number-9" onclick="appendNumber('4')">
+                4
+            </button>
+        </div>
+
+        <div class="button-number-10-parent">
+            <button id="button-number-10" onclick="appendNumber('5')">
+                5
+            </button>
+        </div>
+
+        <div class="button-number-11-parent">
+            <button id="button-number-11" onclick="appendNumber('6')">
+                6
+            </button>
+        </div>
+
+        <div class="button-number-12-parent">
+            <button id="button-number-12" onclick="appendOperator('-')">
+                -
+            </button>
+        </div>
+
+        <div class="button-number-13-parent">
+            <button id="button-number-13" onclick="appendNumber('1')">
+                1
+            </button>
+        </div>
+
+        <div class="button-number-14-parent">
+            <button id="button-number-14" onclick="appendNumber('2')">
+                2
+            </button>
+        </div>
+
+        <div class="button-number-15-parent">
+            <button id="button-number-15" onclick="appendNumber('3')">
+                3
+            </button>
+        </div>
+
+        <div class="button-number-16-parent">
+            <button id="button-number-16" onclick="appendOperator('+')">
+                +
+            </button>
+        </div>
+
+        <div class="button-number-17-parent">
+            <button id="button-number-17" onclick="appendNumber('0')">
+                0
+            </button>
+        </div>
+
+        <div class="button-number-18-parent">
+            <button id="button-number-18" onclick="appendOperator('.')">
+                .
+            </button>
+        </div>
+
+        <div class="button-number-19-parent">
+            <button id="button-number-19" onclick="calculate()">
+                =
+            </button>
+        </div>
+    </div>
+
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
